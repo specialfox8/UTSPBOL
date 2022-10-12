@@ -49,11 +49,11 @@ DROP TABLE IF EXISTS `pelanggan`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `pelanggan` (
   `idjual` char(5) NOT NULL,
-  `idkaca` char(5) NOT NULL,
+  
   `namapelanggan` varchar(30) DEFAULT NULL,
   `jumlah` int(11) DEFAULT NULL,
   `Harga` int(11) DEFAULT NULL,
-  PRIMARY KEY (`idjual`,`idkaca`)
+  PRIMARY KEY (`idjual`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
